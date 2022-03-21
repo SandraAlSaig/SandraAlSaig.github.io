@@ -1,15 +1,13 @@
 .metext {
-    text-shadow: 3px 3px grey;
+    text-shadow: 2px 3px lightgrey;
 }
 
-.myself {
-    margin-right: 1em;
-}
-
-#intropic {
-    background-image: url(grey.jpg);
-}
+#intropic {}
 
 .footer {
     font-size: x-small;
+}
+
+img {
+    height: 150px;
 }
