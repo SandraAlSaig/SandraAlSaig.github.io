@@ -18,3 +18,7 @@
 img {
     height: 180px;
 }
+
+.card-text {
+  overflow-x: scroll;
+}
