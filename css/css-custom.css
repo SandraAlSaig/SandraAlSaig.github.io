@@ -19,6 +19,7 @@ img {
     height: 180px;
 }
 
-.card-text {
-  overflow-x: scroll;
+img.repos {
+    border: 2px solid darkgray;
+    box-shadow: 3px 4px 5px #8f9091;
 }
