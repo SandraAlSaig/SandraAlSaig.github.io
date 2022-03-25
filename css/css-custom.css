@@ -11,15 +11,40 @@
     color: #656566;
 }
 
-.footer {
-    font-size: x-small;
-}
-
 img {
     height: 180px;
 }
 
 img.repos {
-    border: 2px solid darkgray;
     box-shadow: 3px 4px 5px #8f9091;
+}
+
+.dividers {
+    max-width: 80%;
+}
+
+.skills {
+    width: 90%;
+}
+
+.contactLabel {
+    max-width: 50%;
+    font-size: small;
+    margin-left: 2em;
+    margin-top: .5em;
+}
+
+.contactInput {
+    max-width: 50%;
+    font-size: small;
+    margin-left: 2em;
+}
+
+.contactText {
+    text-shadow: 1px 2px 2px rgb(139, 139, 139);
+}
+
+.footer {
+    height: 4em;
+    font-size: x-small;
 }
