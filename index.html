@@ -25,13 +25,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                        <a class="nav-link text-white" aria-current="page" href="#top">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">References</a>
+                        <a class="nav-link text-white" href="#refs">References</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Resume</a>
+                        <a class="nav-link text-white" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -42,9 +45,9 @@
 
     <!-- Me & Intro -->
 
-    <div class="container py-xl-5 my-5">
-        <div class=" container ">
-            <img src="img/myself5.jpeg" class=" mb-2 rounded-circle border mx-auto d-block border-secondary border-4 " alt="... ">
+    <div class="container py-xl-5 my-5" id="#top">
+        <div class=" container">
+            <img src="img/myself5.jpeg" class="mypic mb-2 rounded-circle border mx-auto d-block" alt="... ">
         </div>
         <div>
             <p class="display-6 metext d-flex text-center lead px-3" id="intro "> Hi, My name is Sandra and I'm a Front-End Web Developer.
@@ -63,11 +66,11 @@
 
     <!-- Github Repos  -->
 
-    <h2 class="text-center my-4">References</h2>
-    <div class="card-group container my-5">
+    <h2 class="text-center my-4" id="#refs">References</h2>
+    <div class="card-group container my-5 mb-5">
         <div class="card p-3">
-          <a href="https://sandraalsaig.github.io/online_registration_form/">
-            <img src="img/regform3.png" class="card-img-top img-fluid mb-3 repos" alt="...">
+            <a href="https://sandraalsaig.github.io/online_registration_form/">
+                <img src="img/regform3.png" class="card-img-top img-fluid mb-3 repos" alt="...">
             </a>
             <div class="card-body">
                 <h5 class="card-title text-center">Online Registration Form</h5>
@@ -76,8 +79,8 @@
             </div>
         </div>
         <div class="card p-3">
-          <a href="https://sandraalsaig.github.io/webstyle_guide/">
-            <img src="img/webstyle.png" class="card-img-top img-fluid mb-3 repos" alt="...">
+            <a href="https://sandraalsaig.github.io/webstyle_guide/">
+                <img src="img/webstyle.png" class="card-img-top img-fluid mb-3 repos" alt="...">
             </a>
             <div class="card-body">
                 <h5 class="card-title text-center">Web Style Guide</h5>
@@ -87,8 +90,8 @@
             </div>
         </div>
         <div class="card p-3">
-          <a href="https://sandraalsaig.github.io/photo_gallery/">
-            <img src="img/gallery3.png" class="card-img-top img-fluid mb-3 repos" alt="...">
+            <a href="https://sandraalsaig.github.io/photo_gallery/">
+                <img src="img/gallery3.png" class="card-img-top img-fluid mb-3 repos" alt="...">
             </a>
             <div class="card-body">
                 <h5 class="card-title text-center">Photo Gallery</h5>
@@ -97,23 +100,12 @@
             </div>
         </div>
         <div class="card p-3">
-          <a href="https://sandraalsaig.github.io/webapp_dashboard/">
-            <img src="img/dashboard.png" class="card-img-top img-fluid mb-3 repos" alt="...">
+            <a href="https://sandraalsaig.github.io/webapp_dashboard/">
+                <img src="img/dashboard.png" class="card-img-top img-fluid mb-3 repos" alt="...">
             </a>
             <div class="card-body">
                 <h5 class="card-title text-center">WebApp Dashboard</h5>
                 <p class="card-text">This page is an interactive dashboard for a web application using advanced web techniques including SVG graphics and JavaScript programming. includes many user interface components in a manner that promotes interactivity and usability.</p>
-
-            </div>
-        </div>
-        <div class="card p-3">
-          <a href="https://sandraalsaig.github.io/employee_directory/">
-            <img src="img/employeedir3.png" class="card-img-top img-fluid mb-3 repos" alt="...">
-            </a>
-            <div class="card-body">
-                <h5 class="card-title text-center">Employee Directory Page</h5>
-                <p class="card-text">This website style guide is modern Front End Web Developer’s toolbox.Created as a style guide that can act as your own personal and custom Bootstrap that you can drop into any of your projects to speed up styling, layout and development
-                    in general.</p>
 
             </div>
         </div>
@@ -123,28 +115,9 @@
 
 
     <!-- skills -->
-    <h2 class="text-center my-4">Skills</h2>
-    <div>
-        <ol class="list-group skills mx-auto my-3">
-            <li class="list-group-item d-flex mx-auto border">
-                <div class=" mx-auto">
-                    <div class="fw-bold">HTML</div>
-                    Content for list item
-                </div>
-            </li>
-            <li class="list-group-item d-flex mx-auto">
-                <div class=" mx-auto">
-                    <div class="fw-bold">CSS</div>
-                    Content for list item
-                </div>
-            </li>
-            <li class="list-group-item d-flex mx-auto">
-                <div class=" mx-auto">
-                    <div class="fw-bold">SASS</div>
-                    Content for list item
-                </div>
-            </li>
-        </ol>
+    <div class="my-5 mx-auto container" id="#skills">
+
+        <img src="svg/skillcircle.svg" alt="skill-frame" height="300" width="300" />
     </div>
 
     <hr class="mb-3 dividers mx-auto">
@@ -181,19 +154,11 @@
     <!-- /Carousel -->
 
     <!-- contact me -->
-    <div class="container mb-5 mx-auto contact">
+    <div class="container mb-5 mx-auto contact" id="#contact">
         <p class="lead text-center mx-auto my-5 contactText"><i>Please feel free to get in touch! Looking forward to our awesome collaboration.. :)</i></p>
         <form class="row gy-2 gx-3 align-items-center">
-            <div class="col-auto d-flex mx-auto">
-                <label class="d-inline justify-content-between contactLabel" for="autoSizingInput">Your Name:</label>
-                <input type="text" class="form-control contactInput" id="autoSizingInput" placeholder="Jane Doe">
-            </div>
-            <div class="col-auto d-flex mx-auto">
-                <label class="d-inline justify-content-between contactLabel" for="autoSizingInput">Email:</label>
-                <input type="email" class="form-control contactInput" id="autoSizingInput" placeholder="Jane Doe">
-            </div>
-            <div class="d-grid gap-2 col-6 mx-auto">
-                <button type="submit" class="btn btn-primary bg-secondary border ">Email me here!</button>
+            <div class=" container d-grid gap-2 col-6 mx-auto">
+                <button type="email" href="sandra.alsaig@gmail.com" class="btn btn-primary bg-secondary border ">Email me here!</button>
             </div>
         </form>
     </div>
@@ -202,10 +167,12 @@
 
     <!-- footer -->
 
-    <nav class=" footer navbar fixed-bottom navbar-light bg-secondary position-fixed">
-        <div class="container-fluid">
-            <a class="navbar-brand footer" href="#">Copyright &#169 by Sandra</a>
+    <nav class=" footer navbar fixed-bottom navbar-light position-fixed d-flex">
+        <div class="container-fluid footertext justify-content-between">
+            <span><i>Copyright &#169 Sandra.A</i></span>
+            <a class="back" href="#top">Back to Top</a>
         </div>
+
     </nav>
 
     <!-- /footer -->

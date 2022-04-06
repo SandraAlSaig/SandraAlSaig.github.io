@@ -1,5 +1,9 @@
 .nav {
-    background-color: #88898a;
+    background-color: #749ea8;
+}
+
+.mypic {
+    margin-bottom: 17em;
 }
 
 .metext {
@@ -7,7 +11,7 @@
 }
 
 .intropic {
-    background: linear-gradient(#fff, #b8b8b8, #fff);
+    background: linear-gradient(#fff, #749ea8, #fff);
     color: #656566;
 }
 
@@ -45,6 +49,24 @@ img.repos {
 }
 
 .footer {
-    height: 4em;
-    font-size: x-small;
+    height: 2em;
+    background-color: #749ea8;
+}
+
+.footertext {
+    font-size: xx-small;
+    text-decoration: none;
+}
+
+.back {
+    text-decoration: none;
+    color: black;
+    border: 1px double #4a4e4f;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.back:hover {
+    cursor: pointer;
+    color: black;
 }
