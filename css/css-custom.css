@@ -27,9 +27,11 @@ img.repos {
     max-width: 80%;
 }
 
-.skills {
-    width: 90%;
+.accordion-button {
+    background-color: #aacbd3;
 }
+
+.dropdownbtn {}
 
 .contactLabel {
     max-width: 50%;
@@ -48,19 +50,14 @@ img.repos {
     text-shadow: 1px 2px 2px rgb(139, 139, 139);
 }
 
-.footer {
-    height: 2em;
-    background-color: #749ea8;
-}
-
-.footertext {
-    font-size: xx-small;
-    text-decoration: none;
+.icons {
+    max-width: 40px;
+    max-height: 40px;
 }
 
 .back {
     text-decoration: none;
-    color: black;
+    color: #749ea8;
     border: 1px double #4a4e4f;
     border-radius: 5px;
     padding: 2px;
