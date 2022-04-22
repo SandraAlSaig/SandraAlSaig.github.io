@@ -1,3 +1,8 @@
+* {
+    margin: auto;
+    box-sizing: border-box;
+}
+
 .nav {
     background-color: #749ea8;
 }
@@ -12,7 +17,8 @@
 
 .intropic {
     background: linear-gradient(#fff, #749ea8, #fff);
-    color: #656566;
+    color: #232324;
+    max-height: 200px;
 }
 
 img {
@@ -20,19 +26,37 @@ img {
 }
 
 img.repos {
+    max-height: 150px;
     box-shadow: 3px 4px 5px #8f9091;
+}
+
+.card-text {
+    height: 80px;
+    overflow: scroll;
+}
+
+.card {
+    background-color: #cdd8d8;
+}
+
+.projects {
+    width: 80%;
 }
 
 .dividers {
     max-width: 80%;
+    margin-top: 2em;
+}
+
+.desc {
+    max-height: 120px;
+    padding-bottom: 5em;
+    overflow: scroll;
 }
 
 .accordion-button {
     background-color: #aacbd3;
 }
-
-
-/* .dropdownbtn {} */
 
 .contactLabel {
     max-width: 50%;
@@ -61,6 +85,11 @@ img.repos {
     max-height: 40px;
 }
 
+.icons:hover {
+    cursor: pointer;
+    color: #4a4e4f;
+}
+
 .back {
     text-decoration: none;
     color: #749ea8;
@@ -72,4 +101,48 @@ img.repos {
 .back:hover {
     cursor: pointer;
     color: black;
+}
+
+
+/* ---------------------------------------------------------------MEDIA QUERIES---------------------------------------------------------------- */
+
+@media (min-width: 500px) {
+    .pictext,
+    .accordion,
+    .contact {
+        width: 90%;
+        margin: auto;
+    }
+    .intropic {
+        width: 70%;
+    }
+    .skills {
+        width: 350px;
+    }
+}
+
+@media (min-width: 800px) {
+    .pictext,
+    .accordion,
+    .contact {
+        width: 70%;
+        margin: auto;
+    }
+    .skills {
+        width: 350px;
+    }
+    .intropic {
+        margin-bottom: 3em;
+    }
+    .dividers,
+    .accordion {
+        margin-top: 4em;
+        margin-bottom: 4em;
+    }
+    .metext {
+        margin: auto;
+    }
+    .projects {
+        width: 80%;
+    }
 }
