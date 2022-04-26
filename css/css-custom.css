@@ -48,6 +48,7 @@ h5 {
 
 img.repos {
     max-height: 150px;
+    max-width: 80px;
     box-shadow: 3px 4px 5px #8f9091;
 }
 
