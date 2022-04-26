@@ -10,7 +10,7 @@ body {
 
 .nav,
 hr {
-    background-color: #957178;
+    background-color: #576d55;
 }
 
 h5 {
@@ -60,15 +60,37 @@ img.repos {
     width: 80%;
 }
 
-.first {
+.btn-one {
     background-color: #957178;
-    ;
-    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    padding: 6px;
+    cursor: pointer;
 }
 
-.second {
+.btn-one:visited {
+    color: #fff;
+}
+
+.btn-one:hover {
+    text-decoration: underline;
+}
+
+.btn-two {
     background-color: #a49c99;
-    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    padding: 6px;
+}
+
+.btn-two:visited {
+    color: #fff;
+}
+
+.btn-two:hover {
+    text-decoration: underline;
 }
 
 .dividers {
