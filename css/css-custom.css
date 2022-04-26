@@ -26,6 +26,7 @@ h5 {
 
 .mypic {
     margin-bottom: 17em;
+    transition: transform 0.5s ease-in;
 }
 
 .metext {
@@ -41,146 +42,10 @@ h5 {
 
 img {
     height: 180px;
-    width: fit-content;
+    width: 150px;
 }
 
 img.repos {
     max-height: 150px;
     box-shadow: 3px 4px 5px #8f9091;
-}
-
-.card-text {
-    height: 80px;
-    overflow: scroll;
-}
-
-.projects {
-    width: 80%;
-}
-
-.first {
-    background-color: #957178;
-    ;
-    border: none;
-}
-
-.second {
-    background-color: #a49c99;
-    border: none;
-}
-
-.dividers {
-    max-width: 80%;
-    margin-top: 2em;
-}
-
-.desc {
-    max-height: 120px;
-    padding-bottom: 5em;
-    overflow: scroll;
-}
-
-.accordion-button {
-    background-color: #aacbd3;
-}
-
-.contactLabel {
-    max-width: 50%;
-    font-size: small;
-    margin-left: 2em;
-    margin-top: .5em;
-}
-
-.contactInput {
-    max-width: 50%;
-    font-size: small;
-    margin-left: 2em;
-}
-
-.contactText {
-    font-family: fantasy;
-    text-shadow: 1px 2px 2px #957178;
-}
-
-.contacticons {
-    max-width: 40px;
-    max-height: 40px;
-}
-
-.icons {
-    max-width: 40px;
-    max-height: 40px;
-}
-
-.icons:hover {
-    cursor: pointer;
-    color: #4a4e4f;
-}
-
-.email {
-    background-color: #957178;
-    ;
-}
-
-.back {
-    height: 2em;
-    margin-right: 0;
-}
-
-.back:hover {
-    cursor: pointer;
-}
-
-.copyright {
-    font-size: x-small;
-}
-
-
-/* ---------------------------------------------------------------MEDIA QUERIES---------------------------------------------------------------- */
-
-@media (min-width: 500px) {
-    .pictext,
-    .accordion,
-    .contact {
-        width: 90%;
-        margin: auto;
-    }
-    .intropic {
-        width: 70%;
-    }
-    .skills {
-        width: 350px;
-    }
-}
-
-@media (min-width: 800px) {
-    .pictext,
-    .accordion,
-    .contact {
-        width: 70%;
-        margin: auto;
-    }
-    .skills {
-        width: 350px;
-    }
-    .intropic {
-        margin-bottom: 3em;
-    }
-    .desc {
-        max-height: 500px;
-    }
-    .dividers,
-    .accordion {
-        margin-top: 4em;
-        margin-bottom: 4em;
-    }
-    .metext {
-        margin: auto;
-    }
-    .projects {
-        width: 80%;
-    }
-    .card {
-        max-width: 420px;
-    }
 }

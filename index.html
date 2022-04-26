@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/css-custom.css">
-    <title>Hello, world!</title>
+    <title>Sandra's Portfolio</title>
 </head>
 
 <body>
@@ -45,29 +45,29 @@
 
     <!-- Me & Intro -->
 
-    <div class="pictext container py-xl-5 my-3" id="#top">
-       <div class=" container">
-           <img src="img/myself8.png" class="mypic mb-3 rounded-circle border mx-auto d-block" alt="... ">
-       </div>
-       <div>
-           <p class="display-6 metext d-flex text-center lead px-3" id="intro "> Hi, My name is Sandra and I'm a Front-End Web Developer.
-           </p>
-       </div>
-   </div>
+    <div class="pictext container py-xl-5 my-3" id="">
+        <div class=" container">
+            <img src="img/myself8.png" class="mypic mb-3 rounded-circle border mx-auto d-block" id="myimage" onclick="rotateImage();" alt="" />
+        </div>
+        <div>
+            <p class="display-6 metext d-flex text-center lead px-3 mb-4" id="intro "> Hi, My name is Sandra and I'm a Front-End Web Developer.
+            </p>
+        </div>
+    </div>
 
-   <div class="container mx-auto intropic px-md-5 text-center ">
-       <p class="desc pb-4">I'm a creative Junior Front-End Developer with huge passion for interactive,responsive website designs and I am a firm beliver in the mobile first approach. Years or practice in working wirh Javascript,HTML and CSS to deliver an exceptional customer
-           experience. I enjoy collaborating with others,finding solutions together and determining customers satisfaction. bla ..bla bla .. bla bla :)
-       </p>
-   </div>
-   <hr class="mx-3 dividers mx-auto">
+    <div class="container mx-auto intropic px-md-5 text-center">
+        <p class="desc pb-4">I'm a creative Junior Front-End Developer with huge passion for interactive,responsive website designs and I am a firm beliver in the mobile first approach. Years or practice in working wirh Javascript,HTML and CSS to deliver an exceptional customer
+            experience. I enjoy collaborating with others,finding solutions together and determining customers satisfaction. bla ..bla bla .. bla bla :)
+        </p>
+    </div>
+    <hr class="mx-3 my53 dividers mx-auto">
 
     <!-- /Me & Intro -->
 
     <!-- skills -->
 
     <div class="container d-grid mx-auto skills mb-5">
-        <h5 class="mb-4">Skills</h5>
+        <h5 class="my-4 display-6" id="skills">Skills</h5>
         <div class="row">
             <div class="col text-center">
                 <img class="icons mb-3" src="svg/javascript.svg" alt="javascript">
@@ -111,8 +111,8 @@
 
     <!-- Github Repos  -->
 
-    <h5 class="mb-4 text-center">Projects</h5>
-    <div class=" projects row row-cols-1 row-cols-sm-2 g-4 mx-auto">
+    <h5 class="my-4 text-center display-6" id="refs">Projects</h5>
+    <div class=" projects row row-cols-1 row-cols-sm-2 g-3 mx-auto">
         <div class="col project-card">
             <div class="card">
                 <a href="https://sandraalsaig.github.io/online_registration_form/">
@@ -193,13 +193,14 @@
 
     <hr class="mx-3 dividers mx-auto ">
 
+
     <!-- /Github Repos -->
 
 
     <!-- contact -->
 
-    <div class="container my-2 mx-auto contact " id="#contact ">
-        <p class="lead text-center mx-auto my-4 contactText "><i>Get in touch! :)</i></p>
+    <div class="container my-2 mx-auto contact " id="cont">
+        <p class="lead text-center mx-auto my-4 contactText "><i>Get in touch! ;)</i></p>
 
         <div class="container d-flex mx-auto my-3 justify-content-center ">
             <div class="mx-2 ">
@@ -220,35 +221,41 @@
         </div>
 
         <form class="row gy-2 gx-3 align-items-center ">
-            <div class=" container d-grid gap-2 col-6 mx-auto ">
-                <button type="email " href="sandra.alsaig@gmail.com " class="btn btn-primary border email ">Email me here!</button>
+            <div class=" container d-grid gap-2 mx-auto ">
+                <a href="mailto: sandra.alsaig@hotmail.com" class="email text-center">
+                    Email me here!
+                </a>
             </div>
         </form>
     </div>
 
+
     <!-- /contact -->
 
     <!-- back btn -->
-
-    <div class="container d-flex text-center ">
-        <div class=" copyright text-muted ">&copy; All rights reserved - Developed by S.G</div>
-        <div class=" float-end m-0 ">
-            <img src="svg/uparrow.svg " alt="totop " class="back ">
+    <div class="container d-flex justify-content-between">
+        <div class=" copyright text-muted text-center col-9">&copy; All rights reserved - Developed by S.G</div>
+        <div class=" float-end arrow">
+            <a href="#top">
+                <img src="svg/uparrow.svg " alt="totop " class="back">
+            </a>
         </div>
     </div>
 
     <!-- /back btn -->
 
+
     <!-- Optional JavaScript; choose one of the two! -->
 
-        <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/portfolio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
 
-        <!-- Option 2: Separate Popper and Bootstrap JS -->
-        <!--
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>
-        -->
-    </body>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>
+    -->
+</body>
 
-    </html>
+</html>
